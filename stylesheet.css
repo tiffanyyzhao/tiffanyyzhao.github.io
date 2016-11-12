@@ -1,9 +1,16 @@
 body {
     font-family:"Tahoma", Geneva, sans-serif;
+    background-color: #BEBEBE;
 }    
 
 .bgimg {
     background-image: url(img/cat-photo-bg.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.bgimg1 {
+    background-image: url(img/background-gray.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
 }
@@ -77,9 +84,10 @@ div {
 }
 
 .nav li a:hover {
-    color: black;
-    border-bottom: 1px solid black;
+    color: #ffffff;
+    border-bottom: 1px solid #DFDFDF;
     width:90px;
+    transition:.5s;
 }
 
 
